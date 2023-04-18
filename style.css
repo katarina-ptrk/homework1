@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap');
+/* @charset "UTF-8"; */
 
 body {
-    background-color: rgb(60, 60, 60);
+    background-color: rgb(54, 54, 54);
+    color: rgb(246, 243, 243);
 }
 .navbar {
     --bs-navbar-padding-x: 0;
@@ -32,9 +35,12 @@ body {
     padding: 0;
 }
 .container-fluid {
-    background-color: rgb(46, 46, 46);
+    background-image: linear-gradient(to bottom right, rgb(105, 116, 234), rgb(171, 93, 138));
     padding: 0;
     margin: 0;
+    /* display: flex;
+    justify-content: space-between; */
+    /* position: fixed; */
 }
 .radius {
     border-radius: 12px;
@@ -56,16 +62,152 @@ body {
     visibility: visible;
 }
 .lightColor  {
-    color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
 }
 .lightColor:hover {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(54, 54, 54) !important;
 }
 .lightColor:visited {
-    color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
 }
 .navbar-nav {
     margin-left: 15px;
 }
-@media screen and (min-width: 500px){
+.txt {
+    margin-top: 27px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    color: rgb(246, 243, 243);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    width: 80%;
+
+}
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: -1px;
+}
+/* .img {
+    display: flex;
+    align-items: center;
+} */
+/* .grid {
+    display: flex;
+} */
+.creature {
+    height: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.nitroBasic {
+    background-image: linear-gradient(to bottom left, rgb(105, 116, 234), rgb(133, 71, 198));
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    width: 90%;
+    height: 275px;
+    display: flex;
+    /* row-gap: 1px; */
+}
+
+.nitt {
+   margin: auto;
+   width: 80%;
+   height: 80%;
+}
+.nitro2 {
+    background-image: linear-gradient(to bottom right, rgb(133, 71, 198), rgb(171, 93, 138));
+    border-radius: 15px;
+    margin-top: 29px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 365px;
+    display: flex;
+}
+h2 {
+    margin-bottom: 19px;
+}
+.button {
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: rgb(246, 243, 243);
+    border: 2px solid rgb(133, 71, 198);
+    color: rgb(105, 116, 234);
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  .bbbt {
+    border: 2px solid rgb(171, 93, 138);
+    color: rgb(133, 71, 198);
+  }
+  .button:hover {
+    color: rgb(246, 243, 243);
+    background: rgb(133, 71, 198);
+  }
+  .bbbt:hover {
+    background: rgb(171, 93, 138);
+  }
+  .button:active {
+    letter-spacing: 2px;
+  }
+  .button:after {
+    content: "SUBSCRIBE";
+  }
+.social {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.socialMedia {
+    margin-left: 20px;
+}
+.hr {
+    /* background-color: #1ECD97; */
+    color:  rgb(105, 116, 234);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    }
+    .noDeco {
+        text-decoration: none;
+        color: rgb(246, 243, 243);
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .lastDiv {
+        display: flex;
+        justify-content: right;
+        margin-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+@media screen and (max-width: 370px) {
+    .creature {
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}
+@media screen and (min-width: 600px){
 }
