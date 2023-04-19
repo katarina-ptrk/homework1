@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap');
 /* @charset "UTF-8"; */
 
@@ -90,6 +91,9 @@ h1 {
     font-size: 45px;
     letter-spacing: -1px;
 }
+.none {
+    display: none;
+}
 /* .img {
     display: flex;
     align-items: center;
@@ -133,6 +137,12 @@ h1 {
 }
 h2 {
     margin-bottom: 19px;
+    /* font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic; */
+}
+.stickers {
+    position: relative;
 }
 .button {
     outline: none;
@@ -209,5 +219,175 @@ h2 {
     }
    
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 700px){
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .txt {
+        width: 290px;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    .img {
+        height: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70px;
+    }
+    .creature {
+        height: 250px;
+    }
+    .button {
+        width: 200px;
+    }
+} 
+@media screen and (min-width: 800px) {
+    .grid {
+        margin-top: -40px;
+        margin-bottom: 30px;
+    }
+    .txt {
+        width: 370px;
+        margin-top: 70px;
+        margin-left: 60px;
+    }
+    .img {
+        height: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70px;
+    }
+    .creature {
+        height: 250px;
+    }
+    .grid2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0;
+        margin-top: -45px;
+        z-index: -4;
+    }
+    .nitroBasic {
+        height: 340px;
+    }
+    .button {
+        width: 150px;
+        margin-top: 109px;
+    }
+    .bbbt {
+        margin-top: 27px !important;
+    }
+    .nitt {
+       margin: auto;
+       width: 80%;
+       height: 90%;
+    }
+    .nitro2 {
+        background-image: linear-gradient(to bottom right, rgb(133, 71, 198), rgb(171, 93, 138));
+        border-radius: 15px;
+        margin-top: 29px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+        height: 340px;
+        display: flex;
+        position: relative;
+    }
+    .stickers2 {
+        margin-top: -60px;
+        display: flex;
+        /* display: inline-block; */
+        margin-left: 20px;
+        height: 60px;
+        z-index: -1;
+    }
+    .sticker2 {
+        height: 80%;
+        margin-top: -3px;
+    }
+    .stickers3 {
+        display: flex;
+        justify-content: end;
+        height: 60px;
+        z-index: -2;
+        margin-top: -10px;
+        margin-right: 50px;
+        margin-bottom: -30px;
+    }
+    .sticker3 {
+        height: 80%;
+        transform: scaleX(-1); 
+    }
+}
+@media screen and (min-width: 850px) {
+    .stickers {
+        margin-top: -10px;
+        display: flex;
+        justify-content: end;
+        margin-right: 330px;
+        height: 60px;
+        overflow: visible;
+    }
+    .sticker1 {
+        height: 70%;
+        margin-top: 5px;
+        z-index: -3;
+        transform: scale(1, -1);
+    }
+}
+@media screen and (min-width: 1000px) {
+    .stickers {
+        margin-right: 410px
+    }
+    .grid {
+        margin-top: -30px;
+        /* margin-bottom: 30px; */
+    }
+    .txt {
+        margin-left: 80px;
+        margin-top: 75px;
+        width: 390px;
+    }
+    .img {
+        height: 340px;
+    }
+    .creature {
+        height: 300px;
+    }
+    .stickers2 {
+        margin-left: 35px
+    } 
+}
+@media screen and (min-width: 1100px) {
+    .stickers {
+       justify-content: left;
+       margin-left: 100px;
+    }
+    .grid {
+        margin-top: -60px;
+        margin-bottom: -10px;
+    }
+    .txt {
+        width: 360px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .img {
+        height: 500px;
+    }
+    .creature {
+        height: 400px;
+    }
+    .stickers2 {
+        margin-left: 40px
+    } 
+
+}
+@media screen and (min-width: 1300px) {
+    .txt {
+        margin-left: 130px;
+    }
 }
